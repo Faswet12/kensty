@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "151063543585",
+    "project_id": "kensty-8121f",
+    "storage_bucket": "kensty-8121f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151063543585:android:a99c47f982a4882d940860",
+        "android_client_info": {
+          "package_name": "avarewase.org.kensty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq_8vuX-8_AXk2mGBQKG4yqC9AGuP4sw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
