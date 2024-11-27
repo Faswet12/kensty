@@ -1,5 +1,14 @@
-abstract class LoginStates{}
+abstract class LoginStates {}
 
-class LoginInitialState extends LoginStates{}
+class LoginInitialState extends LoginStates {}
 
-class LoginPasswordShowedState extends LoginStates{}
+class LoginLoadingState extends LoginStates {}
+
+class LoginSuccessState extends LoginStates {}
+
+class LoginErrorState extends LoginStates {
+  final String errorMessage;
+  LoginErrorState(this.errorMessage);
+}
+
+class LoginPasswordShowedState extends LoginStates {}

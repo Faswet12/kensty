@@ -4,7 +4,8 @@
 import 'package:flutter/material.dart';
 
 import '../modules/kensty_app/login/login_screen.dart';
-import '../modules/splash/splash_screen.dart';
+import '../modules/kensty_app/pin/pin_screen.dart';
+import '../modules/kensty_app/splash/splash_screen.dart';
 import 'app_routes.dart';
 
 class AppRouter {
@@ -14,8 +15,8 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const SplashScreen());
       case AppRoutes.login:
         return MaterialPageRoute(builder: (_) => const LoginScreen());
-      // case AppRoutes.pin:
-      //   return MaterialPageRoute(builder: (_) => const PinScreen());
+      case AppRoutes.pin:
+        return MaterialPageRoute(builder: (_) => const PinScreen());
       default:
         return MaterialPageRoute(
           builder: (_) => const Scaffold(
